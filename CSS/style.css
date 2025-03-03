@@ -1,0 +1,183 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+font-family: Roboto; 
+}
+.btn{
+    background-color:#0075c9 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: transparent;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: #0a58ca ;
+}
+
+/*///////////////////////// Navbar/////////////////////////// */
+.logo{
+    width: 150px;
+}
+nav, ul, li{
+    display: inline-block;
+    padding-right: 20px ;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+.lowla{
+    padding-left: 110px;
+}
+.tanya{
+    color: #0075c9;
+    font-weight: bold;
+}
+/*/////////////////////////// section Hero //////////////////////// */
+.hero{
+    height: 500px ;
+    background-image: url(../imgs/bg.jpg) ;
+    background-size: cover;
+    color: #fff;
+    padding: 125px;
+}
+h1{
+    font-size: 45px ;
+    padding-bottom: 10px;
+}
+.para_hero{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+/*////////////////// section Formules de tarification /////////////////// */
+.Formules_de_tarification{
+    padding: 100px ;
+    padding-right: 210px;
+}
+.piece_form_txt_color{
+    color: #0075c9;
+}
+h2{
+    font-size: 40px;
+}
+.para_tab{
+font-size: 15px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    column-gap: 50px;
+}
+.tab {
+    width: 330px;
+    height: auto;
+    border-style: solid ;
+    border-color: #a3b8d8;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 30px;
+}
+/* /////////////////////////section Simulateur /////////////////////////// */
+.simulateur{
+    background-color: #f5f7fa;
+    padding: 100px ;
+}
+.content{
+padding-right: 300px;
+}
+h4{
+    padding-bottom: 20px;
+    color: #0075c9;
+}
+.calc{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    padding-top: 50px;
+    column-gap: 40px;
+}
+.calc1, .calc2{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.label{
+    color: #022842;
+    font-weight: bolder;
+}
+.boton{
+    color: #0075c9;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #0075c9;
+    border-width: 2px;
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.inpuut{
+    width: 300px;
+    border: transparent;
+    border-bottom: #5a6370;
+    border-style: solid;
+    border-width: 1px;
+}
+.radio{
+    margin: 3px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #5a6370;
+}
+.liste{
+    padding: 10px;
+    color: #022842;
+    font-weight: bold;
+}
+h5{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.prix{
+    font-weight: bolder;
+    font-size: 30px;
+}
+/*/////////////////////////// Footer ////////////////////////// */
+footer{
+    padding: 25px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+h6{
+    padding-top: 10px;
+    text-align: center;
+    color: #0075c9;
+}
+.playstore{
+    padding-right: 530px;
+}

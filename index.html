@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="import" href="fonts/Roboto-Italic-VariableFont.ttf">
+    <link rel="import" href="fonts/Roboto-VariableFont.ttf">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="imgs/logo.png" class="logo" />
+      <p class="tanya">| Maroc</p>
+      <nav>
+        <ul>
+          <li class="lowla">Découvrez nos offres</li>
+          <li>Obtenez un devis</li>
+          <li>Déclarez votre sinistre</li>
+          <li>Conseils et préventions</li>
+          <li>Nous connaître</li>
+        </ul>
+      </nav>
+      <button class="btn">Mon Espace</button>
+      
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Bienvenue sur le Simulateur d'Assurance Auto <br> Assurix</h1>
+        <p class="para_hero">
+          Obtenez votre devis personnalisé en quelques clics grâce au simulateur
+          d'assurance auto <br> Sanlam. Que vous soyez un jeune conducteur ou un
+          propriétaire expérimenté, trouvez la <br> formule qui vous correspond,
+          souscrivez en ligne ou auprès de votre agent.
+        </p>
+        <a href="#simulateur"><button class="btn">Obtenez un tarif Auto</button></a>
+      </section>
+      <section class="Formules_de_tarification">
+        <h2>
+         <span class="piece_form_txt_color"> Les formules de tarification adaptées </span> à votre profil et à vos besoins
+        </h2>
+        <p class="para_tab">
+          Assurix propose trois formules d'assurance auto conçues pour répondre
+          aux besoins spécifiques de chaque conducteur. Que vous recherchiez une
+          protection essentielle ou une couverture complète, vous trouverez la
+          formule idéale.
+        </p>
+        <div class="grid">
+        <div class="tab">
+          <h4>FORMULE INITIALE</h4>
+          <h3>La Protection Essentielle</h3><br>
+          <p>
+            <span><img src="imgs/check.png" /></span> Responsabilité civile :
+            Obligatoire, elle couvre les dommages matériels et corporels causés
+            à des tiers. </p><br />
+            <p><span><img src="imgs/check.png" /></span>Protection des personnes
+            transportées : Sécurisez les passagers de votre véhicule en cas
+            d'accident. </p><br />
+            <p><span><img src="imgs/check.png" /></span>Protection juridique :
+            Profitez d'une assistance juridique pour défendre vos droits en cas
+            de litige.
+          </p>
+        </div>
+        <div class="tab">
+          <h4>FORMULE ESSENTIELLE : FORMULE INITIALE +</h4>
+          <h3>Une Protection Élargie</h3><br>
+          <p>
+            <span><img src="imgs/check.png" /></span> Vol : Couvre les dommages
+            ou la perte en cas de vol ou de tentative de vol.</p><br />
+            <p><span><img src="imgs/check.png" /></span>Incendie : Protégez votre
+            véhicule contre les dégâts causés par un incendie, qu'il soit
+            accidentel ou criminel. </p><br />
+            <p><span><img src="imgs/check.png" /></span>Bris de glace : Prenez en
+            charge le remplacement ou la réparation des vitres.</p><br />
+            <p><span><img src="imgs/check.png" alt="" /></span>Dommage collision :
+            Couvrez les dommages à votre véhicule en cas de collision, même si
+            vous êtes responsable de l'accident.
+          </p>
+        </div>
+        <div class="tab">
+          <h4>FORMULE PREMIUM : FORMULE ESSENTIELLE +</h4>
+          <h3>La Protection Maximale </h3><br>
+          <p>
+            <span><img src="imgs/check.png" /></span>Vol, Incendie, Bris de
+            glace : Inclus dans cette formule pour une couverture renforcée. </p><br />
+            <p><span><img src="imgs/check.png" /></span>Dommage au véhicule :
+            Couvre tous les dommages subis par votre véhicule, quel que soit le
+            type d'incident. </p><br />
+            <p><span><img src="imgs/check.png" /></span>Assistance étendue :
+            Bénéficiez d'une assistance 24h/24 et 7j/7 pour tout problème
+            rencontré sur la route.
+          </p>
+        </div>
+        </div>
+      </section>
+      <section id="simulateur" class="simulateur">
+        <div class="content">
+        <h4 class="h4">Assurix maroc</h4>
+        <h2>Obtenez votre devis d'assurance auto Assurix maintenant</h2>
+        <p>
+          Prêt à trouver l'assurance auto qui vous correspond ? Utilisez notre
+          simulateur pour obtenir un devis personnalisé en quelques clics.
+          Assurix vous propose des formules adaptées à tous les profils de
+          conducteurs, avec des options de paiement flexibles et une
+          souscription simplifiée. Que vous optiez pour la Formule Initiale,
+          Essentielle ou Premium, vous bénéficiez d'une protection optimale à un
+          tarif compétitif. <br> N'attendez plus, obtenez votre devis auto avec
+          Assurix et conduisez en toute sérénité !
+        </p>
+        </div>
+        <div class="calc">
+        <div class="calc1">
+          <form action="">
+            <label for="motorisation " class="label"
+              >Quel est votre type de motorisation ? </label
+            ><br /> <span class="radio">
+            <input type="radio" id="motorisation"  required/>
+            <label for="" >Diesel</label>
+            </span >
+            <span class="radio">
+            <input type="radio" id="motorisation" required/>
+            <label for="" >Essence</label><br />
+            </span>
+            <label for="la_date" class="label">
+              Quelle est la date de la première mise en circulation ?</label
+            ><br />
+            <input
+              type="date"
+              id="la_date"
+              placeholder="jj/mm/aaaa"
+              class="inpuut"
+              required
+            /><br />
+            <label for="fiscale" class="label"
+              >Quelle est la puissance fiscale de votre véhicule ?</label
+            ><br />
+            <input type="number" id="fiscale" class="inpuut" placeholder="CV" required /><br />
+            <input type="checkbox" id="check" required />
+            <label for="check">J'accepte les <a href=""><span class="piece_form_txt_color"><u>conditions générales d'utilisations,</u></span></a> notamment la
+              mention relative à la protection des données personnelles.</label
+            ><br />
+            <button type="submit" class="btn" class="calcBtn">Calculer mon devis →</button>
+          </form>
+        </div>
+        <div class="calc2">
+          <h4>Formule initiale</h4>
+          <p class="prix">3 1118.3</p>
+          <h5>Garanties proposées :</h5>
+          <ul >
+            <li class="liste">Responsabilité civile</li>
+            <hr>
+            <li class="liste">Evénements catastrophiques adossée à la RC</li>
+            <hr>
+            <li class="liste">Protection juridique</li>
+            <hr>
+            <li class="liste">Protection du Conducteur et des Passagers</li>
+          </ul>
+          <button class="boton">Sélectionner</button>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h4>Disponible sur les platformes</h4>
+      <div class="footer">
+        <div class="playstore">
+      <img src="imgs/appstore.png" width= 180px />
+      <img src="imgs/playstore.png" width=180px />
+      </div>
+      <div>
+      <h5>Rejoignez-nous:</h5>
+      </div>
+      <div class="social">
+      <img src="imgs/linkedin.png" />
+      <img src="imgs/instagram.png" />
+      <img src="imgs/twitter.png" />
+      <img src="imgs/youtube.png" />
+      <img src="imgs/facebook.png" />
+      </div>
+      </div>
+      <hr color="#0a58ca " />
+      <h6>©2025. All Rights Reserved.</h6>
+    </footer>
+  </body>
+  <script src="JS/main.js"></script>
+</html>
